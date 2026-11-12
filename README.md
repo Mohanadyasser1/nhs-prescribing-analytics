@@ -70,7 +70,26 @@ Building this surfaced six real data engineering problems — not a clean tutori
 
 ## 🖼️ Screenshots
 
-*(see /screenshots folder)*
+> Note: the live report ran on a Fabric trial capacity that has ended, so Direct Lake can't load. These screenshots show the finished report and the pipeline.
+
+**Report pages**
+
+![Executive Overview](2026-06-21_21h06_23.png)
+![Cost & Volume Analysis](2026-06-21_21h06_43.png)
+![Drug & Category Analysis](2026-06-21_21h07_05.png)
+![ADQ & AMR Analysis](2026-06-21_21h07_59.png)
+![PCO drill-through](2026-06-21_21h08_42.png)
+
+**Data model and pipeline**
+
+![Star schema](2026-06-22_00h23_37.png)
+![Fabric pipeline (Copy data)](2026-06-22_00h30_30.png)
+
+**ETL notebook (SNOMED string fix, dimension builds)**
+
+![dim_drug SNOMED fix](2026-06-22_00h27_16.png)
+![dim_geography build](2026-06-22_00h28_35.png)
+![Dimension row counts](2026-06-22_00h28_50.png)
 
 ## 🛠️ Tech Stack
 
