@@ -7,6 +7,7 @@ End-to-end BI project analyzing NHS England prescribing data, comparing January 
 - **Data source:** [NHS BSA English Prescribing Dataset (EPD) with SNOMED Code](https://opendata.nhsbsa.net/dataset/english-prescribing-dataset-epd-with-snomed-code)
 - **Scope:** NHS England primary care prescribing, January 2025 and January 2026
 - **Stack:** Microsoft Fabric (Lakehouse, OneLake, Notebooks), Python (pandas), Power BI (Direct Lake)
+- **Code:** `01_data_exploration.ipynb` contains the full ETL (exploration, dimension tables, fact table build) run in a Fabric notebook.
 
 ## 🏗️ Architecture
 NHS BSA Open Data (CSV)
